@@ -1,5 +1,5 @@
 #include "vtm_rc.h"
-#include "Utilities/crc.h"
+#include "crc.h"  // 需要实现 CRC-16/MCRF4XX 的 crc_verify 函数
 #include "stm32f4xx_hal.h"
 
 /// @brief 图传模块（VTM）遥控（RC）原始数据帧定义
